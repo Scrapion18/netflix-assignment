@@ -44,3 +44,85 @@ h2{
 .CTA{
     width: unset;
 }
+
+section h3{
+    color: white;
+}
+
+div span{
+    -webkit-text-stroke: 1px white;
+    font-weight: 500;
+    font-size: 100px;
+    position: relative;
+    right: 25px;
+}
+
+div.card{
+    width: 214px;
+    height: 300px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+#show-1{
+    background: url(/resources/image\ 1.jpg) center no-repeat;
+    background-size: contain;
+}
+
+#show-2{
+    background: url(/resources/image\ 2.webp) center no-repeat;
+    background-size: contain;
+}
+
+#show-3{
+    background: url(/resources/image\ 3.webp) center no-repeat;
+    background-size: contain;
+}
+
+#show-4{
+    background: url(/resources/image\ 4.webp) center no-repeat;
+    background-size: contain;
+}
+
+#show-5{
+    background: url(/resources/image\ 5.webp) center no-repeat;
+    background-size: contain;
+}
+
+main{
+    padding: 0 10vw;
+    color: white;
+}
+
+#trending-now{
+    display: flex;
+    justify-content: space-between;
+}
+
+#more-reasons{
+    margin-bottom: 100px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.reason-card{
+    color: white;
+    width: 300px;
+    height: 270px;
+
+    background: linear-gradient(149deg, #192247 0%, #210e17 98.86%);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
