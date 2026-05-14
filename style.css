@@ -126,3 +126,17 @@ main{
     width: 100px;
     height: 100px;
 }
+
+#faq{
+    color: white;
+}
+
+details{
+    background: #2d2d2d;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+details p{
+    border-top: 1px solid black;
+}
