@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
         <title>Netflix South Africa. Watch Tv Shows Online</title>
     </head>
     <body>
@@ -11,12 +12,12 @@
         <!-- header section with the logo and some information and an input form -->
         <header>
 
-            <section>
+            <section class="banner-section">
                 <img src="/resources/logo.svg" alt="logo" id="logo">
                 <button>Sign In</button>
             </section>
             
-
+            
             <h2>Unlimited movies, TV shows, and more</h2>
 
             <h5>Starts at R 59. Cancel anytime.</h5>
@@ -31,6 +32,16 @@
         </header>
 
         <main>
+            <div class="tv-container">
+                <img src="/resources/tv.png" alt="image of tv">
+                <video autoplay playsinline muted loop>
+                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                        type="video/mp4">
+                </video>
+
+            </div>
+
+            <!-- trending shows section -->
             <h3>Trending Now</h3>
             <section id="trending-now">
 

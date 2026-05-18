@@ -43,7 +43,12 @@ header section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40vw;
+    width: 60vw;
+    padding-top: 5vh;
+}
+
+#logo{
+    height: 32px;
 }
 
 h2{
@@ -52,6 +57,21 @@ h2{
 
 .CTA{
     width: unset;
+}
+
+.tv-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-container img{
+    z-index: 1;
+}
+
+.tv-container video{
+    position: absolute;
 }
 
 section h3{
